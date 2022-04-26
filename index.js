@@ -91,6 +91,7 @@ async function run() {
         currency: "usd",
         automatic_payment_methods: {
           enabled: true,
+          
         },
       });
       res.send({
