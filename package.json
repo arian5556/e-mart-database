@@ -1,0 +1,24 @@
+{
+  "name": "emart-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "firebase-admin": "^10.1.0",
+    "heroku": "^7.60.1",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.219.0"
+  }
+}
