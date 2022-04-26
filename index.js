@@ -36,7 +36,7 @@ async function verifyToken(req, res, next) {
 async function run() {
   try {
     await client.connect();
-    const database = client.db("ema-john");
+    const database = client.db("emart");
     const productCollection = database.collection("products");
     const orderCollection = database.collection("orders");
 
